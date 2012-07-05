@@ -13,7 +13,7 @@ HelpDocLoad('~/.vim/bundle')
 ** FAQ **
 
 Q. My vim can't find existing language help doc! 
-(I have engligh doc. But my vim find japanise doc only.)
+(I have engligh doc. But my vim find japanese doc only.)
 
 A. Use this option in vimrc/ex-mode.
 set helplang=en,ja
