@@ -1,0 +1,10 @@
+This vims-script create your all plugin's helptags.
+
+How to use:
+
+<in Ex-mode>
+:call HelpDocLoad('~/.vim/bundle')
+
+<in .vimrc>
+call HelpDocLoad('~/.vim/bundle')
+
