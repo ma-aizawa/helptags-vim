@@ -9,3 +9,6 @@ function! HelpDocLoad(bundle_path)
     execute "silent! helptags " . plugin_directory . "/doc"
   endfor
 endfunction
+
+command! -nargs=1 -complete=command HelpDocLoad :call HelpDocLoad(<args>)
+
